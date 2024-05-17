@@ -6,6 +6,6 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
-  vpc_security_group_ids = 
-  subnet_id              = 
+  vpc_security_group_ids = ""
+  subnet_id              = ""
 }
